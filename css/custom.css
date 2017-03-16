@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+.overlay{
+	width:100%;
+	height:100vh;
+	left:0%;
+	top:0%;
+	background-color:rgba(0,0,0,0.70);
+	position:absolute;
+}
+
+.video-container{
+	width:100%;
+	height:100%;
+	left:0%;
+	top:0%;
+	overflow:hidden;
+	position:absolute;
+	
+}
+
+#player{
+	width:100%;
+	height:100vh;
+	position:absolute;
+	z-index:-1;
+	background-image:url(../images/CricketGround.jpg);
+}
+
+#search
+{
+	width:600px;
+	border-radius:25px;
+	
+}
+
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #000;
+}
+
+.grey-input{
+	color:#fff;
+	background-color:rgba(82,80,80,1.00);
+	border:none;
+}
+.grey-input:focus{
+	
+	-webkit-box-shadow: 0px 1px 10px 1px rgba(232,65,0, 0.6);
+-moz-box-shadow:    0px 1px 10px 1px rgba(232,65,0, 0.6);
+box-shadow:         0px 1px 10px 1px rgba(232,65,0, 0.6);
+}
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  max-width: 300px;
+  padding: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: normal;
+  background-color: #373737;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  background-color: #303030;
+  border-bottom: 1px solid #FD3902;
+  border-radius: 5px 5px 0 0;
+  color:#fff;
+}
+
+.popover.bottom > .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+.popover.bottom > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #363636;
+}
+
+
+.btn-custom {
+  color: #fff;
+  background-color: #F4601D;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active,
+.open > .dropdown-toggle.btn-custom {
+  color: #fff;
+  background-color: #DB4B0A;
+}
+.btn-custom:active,
+.btn-custom.active,
+.open > .dropdown-toggle.btn-custom {
+  background-image: none;
+}
+.btn-custom.disabled,
+.btn-custom[disabled],
+fieldset[disabled] .btn-custom,
+.btn-custom.disabled:hover,
+.btn-custom[disabled]:hover,
+fieldset[disabled] .btn-custom:hover,
+.btn-custom.disabled:focus,
+.btn-custom[disabled]:focus,
+fieldset[disabled] .btn-custom:focus,
+.btn-custom.disabled.focus,
+.btn-custom[disabled].focus,
+fieldset[disabled] .btn-custom.focus,
+.btn-custom.disabled:active,
+.btn-custom[disabled]:active,
+fieldset[disabled] .btn-custom:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #DB4B0A;
+}
+.btn-custom .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+
+.footer{
+	height:150px;
+	background-color:rgba(92,92,92,0.60);
+	position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+	
+}
+
+.footer img{
+	max-height:150px;
+}
+
+.song-icon{
+	color:#fff;
+	text-align:center;
+}
+.song-icon a{
+	text-decoration:none;
+	color:#fff;
+}
+.song-caption{
+	background-color:#494949;
+	border-top:solid 2px #8D8D8D;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.modal-backdrop
+{	position:absolute;
+	top:0;right:0;
+	left:0;
+	background-color:rgba(216,83,14,0.65);
+}.modal-backdrop.fade
+{	opacity:0;
+	filter:alpha(opacity=0)
+}
+.modal-backdrop.in
+{	
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
